@@ -1,0 +1,141 @@
+/* NAVBAR */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#id{
+    background-color: rgb(8, 8, 8);
+}
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    height:840px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 5, 102);
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(./images/my\ image\ 2.jpg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+    padding: 15px 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+   /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 5px;
+    background-color: rgb(62, 255, 62);
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: o.7sec ease;
+  
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+.click{
+    padding: 10px 5px;
+    background-color: rgb(62, 255, 62);
+    border: 1px solid white;
+    color: black;
+    outline: none;
+    transition: o.7sec ease;
+    text-underline-position: none;
+}
+.click:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+/* About section */
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 560px;
+    height: 460px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 12px;
+}
+#intro h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+#class{
+    background-color: yellow;
+    font-size: 45px;
+
+}
+/* Portfolio section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    height: 240px;
+    width: 370px;
+    margin:5px;
+}
+.gallery img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+/*Contact section*/
+#id2{
+    background-color: yellow;
+}
+
+.contact-box{
+    background-color: rgb(182, 252, 252);
+    color: black;
+    display: flexbox;
+    padding: 80px 60px;
+}
